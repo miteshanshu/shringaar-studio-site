@@ -205,3 +205,7 @@ html,body,#root{margin:0;min-height:100%}body{background:var(--ds-page)}.studio{
 
 /* Fill the File canvas at mobile widths; keep internal text gutters. */
 @media(max-width:760px){.studio{margin:-24px}}
+
+/* A quiet authorship cue for the public concept, separate from the studio identity. */
+.studio footer .concept-credit{margin:22px 0 0;max-width:none;color:#b6aab2;font-size:10px;line-height:1.4;font-weight:400;letter-spacing:.02em}
+@media(max-width:760px){.studio footer .concept-credit{margin-top:24px;font-size:10px}}
