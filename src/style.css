@@ -203,8 +203,8 @@ html,body,#root{margin:0;min-height:100%}body{background:var(--ds-page)}.studio{
 .hero-text{background-repeat:no-repeat;background-size:cover;background-position:right top}
 @media(max-width:760px){.hero-text{background-size:cover;background-position:right top}}
 
-/* Fill the File canvas at mobile widths; keep internal text gutters. */
-@media(max-width:760px){.studio{margin:-24px}}
+/* The standalone host needs no File viewer gutter compensation. */
+@media(max-width:760px){.studio{margin:0}}
 
 /* A quiet authorship cue for the public concept, separate from the studio identity. */
 .studio footer .concept-credit{margin:22px 0 0;max-width:none;color:#b6aab2;font-size:10px;line-height:1.4;font-weight:400;letter-spacing:.02em}
